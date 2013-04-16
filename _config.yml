@@ -1,0 +1,21 @@
+# format wyświetlania linków
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+
+# template /:categories/:title.html
+# permalink: none
+
+# template /:categories/:year/:month/:day/:title/
+permalink: pretty
+
+# exclude powoduje, że wylistowane direcotory / plik nie znajdą się w _site
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile" ]
+
+# ustawienia dla lokalnego serwera, komenda jekyll
+server: true
+server_port: 4000
+auto: true
+
+# ustawienia podstawowych ścieżek
+source: .
+destination: ./_site
+plugins: ./_plugins
