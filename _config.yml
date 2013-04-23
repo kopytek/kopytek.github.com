@@ -7,7 +7,7 @@
 # template /:categories/:year/:month/:day/:title/
 permalink: pretty
 
-# exclude powoduje, że wylistowane direcotory / plik nie znajdą się w _site
+# exclude powoduje, że wylistowane directory / plik nie znajdą się w _site
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile" ]
 
 # ustawienia dla lokalnego serwera, komenda jekyll
@@ -19,3 +19,7 @@ auto: true
 source: .
 destination: ./_site
 plugins: ./_plugins
+
+# ustawienia dla markdown
+markdown: rdiscount
+pygments: true
